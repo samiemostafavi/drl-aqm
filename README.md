@@ -6,6 +6,9 @@ In this repository, I invesitgate the implementation of a DRL-based agent for dr
 
 1. Install stable-baselines3
 
-        
-    
+
+## Development Guide
+
+I started by creating a custom environment that follows OpenAI gym interface based on [this](https://colab.research.google.com/github/araffin/rl-tutorial-jnrr19/blob/master/5_custom_gym_env.ipynb#scrollTo=rYzDXA9vJfz1) notebook and [this](https://stable-baselines3.readthedocs.io/en/master/guide/custom_env.html) tutorial from [OpenAI baselines](https://github.com/DLR-RM/stable-baselines3). The result is a shared memory communication module `queue_env.py` that connects to MATLAB and exchanges the information.
+
 
